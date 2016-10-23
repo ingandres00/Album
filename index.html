@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="./js/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script src="./js/main.js"></script>
+
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+  <title>Documentos</title>
+</head>
+<body>
+   <div class ="matriz" id="imagen">
+     <table>
+       <tr>
+         <td>
+           <article class="discos" type = "image"  data-song="Songs/1.mp3" onclick="reproduccion" > <img src="images/1.jpg" ></article>
+         </td>
+         <td>
+           <article class="discos" type = "image"  data-song="Songs/2.mp3" onclick="reproduccion" > <img src="images/2.jpg" ></article>
+         </td>
+         <td>
+           <article class="discos" type = "image"  data-song="Songs/3.mp3" onclick="reproduccion" > <img src="images/3.jpg" ></article>
+         </td>
+       </tr>
+       <tr>
+         <td>
+           <article class="discos" type = "image"  data-song="Songs/4.mp3" onclick="reproduccion" > <img src="images/4.jpg" ></article>
+         </td>
+         <td>
+           <article class="discos" type = "image"  data-song="Songs/5.mp3" onclick="reproduccion" > <img src="images/5.jpg" ></article>
+         </td>
+         <td>
+           <article class="discos" type = "image"  data-song="Songs/6.mp3" onclick="reproduccion" > <img src="images/6.jpg" ></article>
+         </td>
+       </tr>
+     </table>
+
+
+   </div>
+  <div class="listado">
+
+<ul id="playlist" style="display:none;">
+        <li class="active">
+            <a href="Songs/1.mp3">
+                Cancion 1
+            </a>
+        </li>
+        <li>
+            <a href="Songs/2.mp3">
+                Cancion 2
+            </a>
+        </li>
+        <li>
+            <a href="Songs/3.mp3">
+                Cancion 3
+            </a>
+        </li>
+        <li>
+            <a href="Songs/4.mp3">
+                Cancion 4
+            </a>
+        </li>
+    </ul>
+  </div>
+   <audio id="audio" preload="auto" tabindex="0" controls="" style="display: none;">
+   </audio>
+</body>
+</html>

@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header{
+  background-color: #black;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-size: 42px;
+  font-family: sans-serif;
+  font-style: oblique;
+}
+
+
+style.discos{
+  margin:auto;
+  width: 100px;
+  position:absolute;
+  transform: translateX(300%);
+  transform: translateZ(300%);
+
+}
+
+html, body{
+  height: 100%;
+  min-height: 100%
+}
+body{
+
+}
+
+#playlist,audio{background:#666;width:400px;padding:20px;}
+.active a{color:#5DB0E6;text-decoration:none;}
+li a{color:#eeeedd;background:#333;padding:5px;display:block;}
+li a:hover{text-decoration:none;}
